@@ -1,0 +1,10 @@
+from sys import argv
+
+script, filename = argv
+
+print(f"The length of this file is {len(filename)} bytes")
+
+print("Is there anything else I can help print?")
+input('> ')
+
+print("Great! Goodbye")
